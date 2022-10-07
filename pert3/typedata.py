@@ -1,4 +1,4 @@
-# Data type in Python
+#Data type in Python
 
 #string
 a = "hansen"
