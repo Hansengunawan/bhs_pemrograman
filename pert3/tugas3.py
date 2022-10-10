@@ -89,4 +89,34 @@ print("Pengisian dan Exponentiation (**=) ")
 x1**=3
 print(x1)
 
+#Pengisian dan AND
+# Note table
+# x=1 y=1 x&y=1
+# x=1 y=0 x&y=0
+# x=0 y=1 x&y=0
+# x=0 y=0 x&y=0 
+print("Pengisian dan AND (&=)")
+y=20
+y&=12 
+print(y)
+
+#Pengisian dan OR
+# Note table
+# x=1 y=1 x|y=1
+# x=1 y=0 x|y=1
+# x=0 y=1 x|y=1
+# x=0 y=0 x|y=0
+print("Pengisian dan OR (|=)")
+y|= 6
+print(y)
+
+#Pengisian dan XOR
+# Note table
+# x=1 y=1 x|y=0
+# x=1 y=0 x|y=1
+# x=0 y=1 x|y=1
+# x=0 y=0 x|y=0
+print("Pengisian dan XOR (^=)")
+y^=4
+print(y)
 
