@@ -1,5 +1,4 @@
 #Variable
-
 a, b =5, 10
 penjumlahan = a+b
 print("Hasil dari a+b = ", penjumlahan)
@@ -16,9 +15,9 @@ while True:
     print("2. Penjumlahan")
     print("3. Exit")
     choice = int(input("pilihanmu :"))
-    if choice == 1 :
+    if choice == 2 :
         penjumlahan()
-    elif choice == 2:
+    elif choice == 3:
         break
     else:
-        print("pilihan salah")
+        print("Pilih Kembali")
