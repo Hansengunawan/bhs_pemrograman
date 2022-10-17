@@ -7,11 +7,11 @@ def login():
     user=input("Username : ")
     pw=input("Password : ")
     
-    if id == "user" and pw == "123" :
+    if user == "Hansen" and pw == "hansen":
         print("Login Berhasil")
     else:
         print("Coba Lagi")
-    login()
+login()
     
     
 
