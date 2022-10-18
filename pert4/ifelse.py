@@ -14,7 +14,7 @@ def login():
         login_salah() 
     
 def login_salah():
-    print("Silahkan Pilih Kembali")
+    print("Coba Lagi")
     login()
 
 def AKADEMIK() :
@@ -34,6 +34,7 @@ def AKADEMIK() :
         Daftar_Nilai()
     else :
         print("Coba Lagi")
+        AKADEMIK()
     
 
 def data(): 
