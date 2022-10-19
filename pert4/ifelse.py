@@ -35,8 +35,7 @@ def AKADEMIK() :
     else :
         print("Coba Lagi")
         AKADEMIK()
-    
-
+        
 def data(): 
     print("1. Biodata Mahasiswa")
     print("2. Tagihan Mahasiswa")
