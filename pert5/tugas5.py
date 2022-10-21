@@ -44,3 +44,5 @@ while True:
         data += 1 
         print(f"angka selanjutnya => {data}")
     break
+
+print("done")
