@@ -1,5 +1,6 @@
 #Contoh Program Perulangan
 
+#for loop
 #looping with range
 for i in range(1,6):
     print(i)
@@ -32,3 +33,14 @@ for val in "hansen":
 print ("done")
 
 
+#while loop
+while True:
+    data=int(input("Masukkan angka 1-10 : "))
+    if data > 10:
+        print("Coba Lagi")
+    else:
+        print(f"angka sekarang => {data}")
+    while data < 10:
+        data += 1 
+        print(f"angka selanjutnya => {data}")
+    break
