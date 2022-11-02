@@ -1,0 +1,5 @@
+print("{:^100}".format("="*100))
+print("{:^100}".format("Program QUIZ"))
+print("{:^100}".format("="*100))
+print("\nNama   : Hansen")
+print("NIM    : 20210801355")
