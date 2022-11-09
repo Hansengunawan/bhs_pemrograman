@@ -1,0 +1,1 @@
+print("Saya belajar Bahasa Pemrograman menggunakan Python")
