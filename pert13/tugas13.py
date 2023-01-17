@@ -10,4 +10,5 @@ a = DATA ("Hansen","Teknik Informatika","07-07-2003")
 print("Nama         = ",a.nama)
 print("Jurusan      = ",a.jurusan)
 print("TglLahir     = ",a.tglLahir)
-    
+
+print("Hello World")
