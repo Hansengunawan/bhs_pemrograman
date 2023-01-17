@@ -12,3 +12,5 @@ print("Jurusan      = ",a.jurusan)
 print("TglLahir     = ",a.tglLahir)
 
 print("Hello World")
+
+print("Hello World")
