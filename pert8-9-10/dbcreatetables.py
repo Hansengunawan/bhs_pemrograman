@@ -1,7 +1,7 @@
 import mysql.connector
 
 mydb = mysql.connector.connect(
-  host="172.31.192.23",
+  host="172.29.220.39",
   port=23306,
   user="root",
   password="p455w0rd",
@@ -10,7 +10,4 @@ mydb = mysql.connector.connect(
 
 db = mydb.cursor()
 
-db.execute("SHOW TABLES")
-
-for x in db:
-  print(x)
+db.execute("CREATE TABLE students (id INT AUTO_INCREMENT PRIMARY KEY, name VARCHAR(255), nim VARCHAR(255))")
