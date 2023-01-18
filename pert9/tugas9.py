@@ -11,4 +11,4 @@ print("Address y :",id(y))
 print("")
 z=input("Angka yang ingin dialamatkan :  ")
 print("Alamatnya adalah : " ,id(z))
-
+print("")
